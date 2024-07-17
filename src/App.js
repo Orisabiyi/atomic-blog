@@ -62,7 +62,7 @@ function App() {
         </button>
 
         <Header />
-        <Main posts={searchedPosts} onAddPost={handleAddPost} />
+        <Main />
         <Archive onAddPost={handleAddPost} />
         <Footer />
       </section>
@@ -105,7 +105,7 @@ function Results() {
   return <p>🚀 {posts.length} atomic posts found</p>;
 }
 
-function Main({ posts, onAddPost }) {
+function Main() {
   return (
     <main>
       <FormAddPost onAddPost={onAddPost} />
