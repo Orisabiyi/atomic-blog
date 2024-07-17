@@ -106,6 +106,8 @@ function Results() {
 }
 
 function Main() {
+  const { posts, onAddPost } = useContext(PostContext);
+
   return (
     <main>
       <FormAddPost onAddPost={onAddPost} />
