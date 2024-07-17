@@ -176,6 +176,7 @@ function Archive() {
   );
 
   const [showArchive, setShowArchive] = useState(false);
+  const { onAddPost } = useContext(PostContext);
 
   return (
     <aside>
