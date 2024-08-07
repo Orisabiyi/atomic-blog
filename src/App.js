@@ -4,7 +4,7 @@ import { PostProviderContext, usePost } from "./PostProviderContext";
 
 function createRandomPost() {
   return {
-    title: `${faker.hacker.useContextadjective()} ${faker.hacker.noun()}`,
+    title: `${faker.hacker.adjective()} ${faker.hacker.noun()}`,
     body: faker.hacker.phrase(),
   };
 }
