@@ -50,7 +50,7 @@ function PostProviderContext({ children }) {
 }
 
 function usePost() {
-  const context = useContext(PostProviderContext);
+  const context = useContext(PostContext);
   return context;
 }
 
