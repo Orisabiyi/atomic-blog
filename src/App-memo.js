@@ -44,7 +44,7 @@ function App() {
   const archiveOptions = useMemo(function () {
     return {
       show: false,
-      title: "Post Archive",
+      title: "Post Archive in Addition to X main posts",
     };
   }, []);
 
